@@ -1,0 +1,35 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    background-color: burlywood;
+}
+.container{
+
+    background-color: chocolate;
+    width: 953px;
+    height: 650px;
+    margin: 50px 10% 50px 300px;
+    padding: 10px;
+    border: 1px solid burlywood;
+}
+.heads1,.heads2{
+    font-size: xx-large;
+    display: inline-block;
+    font-family: 'Times New Roman', Times, serif;
+    margin: 100px 5px 0px 37%;
+}
+.box{
+    display: inline-block;
+    width: 150px;
+    height: 100px;
+    background-color: brown;
+    margin:2.5px;
+}
+.box:hover{
+ background-color: rgb(163, 63, 63);
+ cursor:pointer;
+}
+.add{
+    background-color: rgb(68, 22, 22);
+}
